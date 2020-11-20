@@ -1,0 +1,298 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.1rem;
+}
+
+p {
+	color: hsl(208, 11%, 55%);
+	margin: 20px 0;
+}
+
+.container-fluid {
+	padding: 2% 5% 4%;
+}
+
+.big-heading {
+	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.image-width {
+	width: 100%;
+}
+
+/* Navbar Section */
+.navbar {
+	padding: 8px 0;
+	margin-bottom: 5%;
+}
+
+.navbar img {
+	width: 120px;
+}
+
+.navbar .button {
+	background-color: #fff;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+	color: hsl(208, 11%, 55%);
+	border-radius: 50px;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 10px 50px;
+}
+
+.navbar .button:hover {
+	background-color: hsla(100, 100%, 100%, 0.7);
+}
+
+/* Title Section */
+.title {
+	background-color: hsl(193, 100%, 96%);
+	background-image: url('../images/bg-hero-desktop.svg');
+}
+
+.title-heading {
+	padding-top: 2%;
+}
+
+.title-button {
+	background-color: hsl(322, 100%, 66%);
+	color: #fff;
+	border-radius: 50px;
+	font-size: 1rem;
+	font-weight: 700;
+	width: 300px;
+	padding: 15px 0;
+	margin: 20px 0 100px 0;
+}
+
+.title-button:hover {
+	background-color: hsla(322, 100%, 66%, 0.7);
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+
+/* Features Section */
+
+.features {
+	background-color: #fff;
+}
+
+.features .container-fluid {
+	padding: 7% 7% 0;
+}
+
+.feature-box {
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 30px 0;
+}
+
+.feature-box h3 {
+	margin-top: 22%;
+}
+
+.feature-space {
+	padding-left: 7%;
+}
+
+.feature-space img {
+	padding: 10% 0;
+	width: 350px
+}
+
+.float {
+	float: right;
+}
+
+/* CTA Section */
+
+.cta {
+	background-color: #fff;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	width: 50%;
+	height: 230px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 80px;
+}
+
+.cta .container-fluid {
+	padding-top: 8%;
+}
+
+/* Footer Section */
+
+.footer {
+	background-color: hsl(192, 100%, 9%);
+	color: #fff;
+	font-size: 1rem;
+}
+
+.footer .container-fluid {
+	padding: 10% 5% 3% 7%;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+.footer p {
+	color: #fff;
+	margin-left: 20px;
+}
+
+.footer a {
+	color: #fff;
+	display: inline-block;
+	width: 49%;
+	margin: 6% 0 4%;
+}
+
+.location {
+	list-style-image: url('../images/icon-location.svg');
+	background-repeat: no-repeat;
+	margin-top: 5px;
+}
+
+.phone {
+	list-style-image: url('../images/icon-phone.svg');
+	background-repeat: no-repeat;
+}
+
+.email {
+	list-style-image: url('../images/icon-email.svg');
+	background-repeat: no-repeat;
+}
+
+.socials {
+	margin: 20px 0 120px 0;
+}
+
+.social {
+	border: 1px solid #fff;
+	border-radius: 100%;
+	width: 30px;
+	margin-right: 10px;
+	padding: 6px 0px;
+	text-align: center;
+}
+
+.social:hover {
+	border: 1px solid hsl(322, 100%, 66%);
+	color: hsl(322, 100%, 66%);
+}
+
+.copyright {
+	display: inline-block;
+	width: 100%;
+}
+
+/* Media Query Section */
+
+@media (max-width: 992px) {
+
+	body {
+		text-align: center;
+	}
+
+	.container-fluid {
+		padding: 4% 10% 10%;
+	}
+
+	.title {
+
+	}
+
+	.features h3 {
+		margin-top: 5%;
+	}
+
+	.feature-order {
+		order: 2;
+		margin-bottom: 30px;
+	}
+
+	.feature-space {
+		padding: 0 7%;
+	}
+
+	.space {
+		margin-bottom: 30px;
+	}
+
+	.feature-space img {
+		width: 80%;
+	}
+
+	.float {
+		float: none;
+	}
+
+	.cta {
+		width: 90%;
+		height: 240px;
+	}
+
+	.footer .container-fluid {
+		padding: 150px 10% 30px;
+	}
+
+	.footer p, .footer a {
+		text-align: left;
+	}
+
+	.move {
+		margin-left: -27px;
+	}
+
+	.socials {
+		margin: 30px 0;
+	}
+
+}
+
+@media (max-width: 576px) {
+	nav .container-fluid {
+		padding: 2% 3% 4%;
+	}
+
+	.footer a {
+		width: 100%;
+	}
+	.navbar .button {
+		padding: 10px 30px;
+	}
+
+	.mover {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 425px) {
+	.title {
+		background-image: url('../images/bg-hero-mobile.svg');
+	}
+
+	.title-button {
+		width: 100%;
+	}
+
+	.cta {
+		width: 90%;
+		height: 250px;
+	}
+
+}
