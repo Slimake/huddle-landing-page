@@ -280,12 +280,9 @@ p {
 		padding: 10px 30px;
 	}
 
-	.socials {
-		text-align: center;
-	}
-
 	.social-align {
 		margin-left: 0;
+		text-align: center;
 	}
 }
 
